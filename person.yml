@@ -42,7 +42,7 @@ endpoints:
     sensitive: false
 eureka:
   instance:
-    hostname: person
+    hostname: ${vcap.application.uris[0]:localhost:8888}
   client:
     registerWithEureka: false
     fetchRegistry: false
