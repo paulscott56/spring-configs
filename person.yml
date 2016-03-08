@@ -10,7 +10,7 @@ spring:
       discovery:
         enabled: true
 server:
-  port: 8761
+  port: 11000
 endpoints:
   restart:
     enabled: true
@@ -32,7 +32,7 @@ eureka:
 spring:
   profiles: development
 server:
-  port: 8761
+  port: 11000
 endpoints:
   restart:
     enabled: true
